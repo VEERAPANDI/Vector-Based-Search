@@ -1,0 +1,95 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# ======================
+# Virtual Environments
+# ======================
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# ======================
+# Environment Variables
+# ======================
+.env
+.env.*
+*.env
+
+# ======================
+# Logs
+# ======================
+*.log
+logs/
+
+# ======================
+# Cache / Temp
+# ======================
+.cache/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# ======================
+# Build / Dist
+# ======================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# IDE / Editors
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# FastAPI / Uvicorn
+# ======================
+*.sqlite3
+uvicorn.log
+
+# ======================
+# ML / Vector DB
+# ======================
+*.pkl
+*.faiss
+*.pt
+*.ckpt
+*.h5
+*.onnx
+
+# ======================
+# Models (local downloads)
+# ======================
+models/
+app/models/
+
+# ======================
+# Coverage
+# ======================
+.coverage
+htmlcov/
